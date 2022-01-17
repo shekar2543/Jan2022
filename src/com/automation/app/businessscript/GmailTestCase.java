@@ -12,6 +12,7 @@ public class GmailTestCase extends BaseTest {
 	public void GmailTestCase() {
 		//BaseTest.getDriver().get("https://www.gmail.com");
 		getDriver().get("https://www.gmail.com");
+		System.out.println("Gmail page will be opened");
 		WebElement userName = getDriver().findElement(By.id("identifierId"));
 		userName.clear();
 		userName.sendKeys("mulkalapellyshekar@gmail.com");
